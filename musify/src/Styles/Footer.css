@@ -1,0 +1,11 @@
+.footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+.faStepBackward {
+  margin-left: 1em;
+}
+#btn:hover {
+  color: gray;
+}

@@ -1,0 +1,57 @@
+.homepage {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  background-image: url("../Images/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  font-family: "montserrat";
+  height: 15vh;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  background: linear-gradient(to right, black, orange);
+  text-shadow: 2px 2px gray;
+}
+
+.row {
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid gray;
+}
+input {
+  width: 20vw;
+  height: 5vh;
+  border-radius: 10px;
+  margin-left: 10em;
+  margin-top: 4em;
+}
+.faSearch {
+  color: white;
+  margin-top: 1.75em;
+  margin-left: 0.2em;
+}
+.faSearch:active {
+  background-color: black;
+
+  transform: translateY(4px);
+}
+.faplay {
+  margin: 0.5em;
+  color: rgb(68, 66, 66);
+}
+h2 {
+  font-family: "montserrat";
+  color: white;
+  margin-left: 15em;
+  margin-top: 2em;
+}
