@@ -1,0 +1,24 @@
+.card {
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+}
+.card-body {
+  background-color: #19171a;
+
+  border-radius: 10px;
+  color: goldenrod;
+}
+.card-body:hover {
+  background: linear-gradient(to right, rgb(156, 53, 70), black);
+}
+.text-color {
+  color: rgb(196, 190, 172);
+}
+.badge {
+  margin-left: 5px;
+  background: rgb(206, 99, 56);
+}
+.badge:hover {
+  background: rgb(194, 130, 71);
+}
