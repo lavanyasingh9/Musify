@@ -19,10 +19,3 @@
     width: 100%;
   }
 } */
-.nav-brand{
-  font-family: fantasy;
-}
-.navbar .navbar-nav .nav-link {
-  font-family: fantasy !important;
-  font-size: 4em;
-}

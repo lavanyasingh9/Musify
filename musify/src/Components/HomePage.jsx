@@ -17,6 +17,10 @@ const HomePage = () => {
     player.load();
     player.play();
   };
+  const quickPick = (pick) => {
+    document.getElementById("inputMood").value = pick;
+    onSearchPressed()
+  }
   return (
     <div className="page">
       <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "#ffffff"}}>
@@ -47,23 +51,23 @@ const HomePage = () => {
             </div>
           </div>
           <h5 className="float-left text-color">Quick Picks: </h5>
-          <h4>
+          <h4 onClick={()=>quickPick("cheerful")}>
             <span class="badge badge-pill badge-light float-left">
               cheerful
             </span>
           </h4>
-          <h4>
+          <h4 onClick={() => quickPick("nostalgic")}>
             <span class="badge badge-pill badge-light float-left">
               nostalgic
             </span>
           </h4>
-          <h4>
+          <h4 onClick={() => quickPick("happy")}>
             <span class="badge badge-pill badge-light float-left">happy</span>
           </h4>
-          <h4>
+          <h4 onClick={() => quickPick("sad")}>
             <span class="badge badge-pill badge-light float-left">sad</span>
           </h4>
-          <h4>
+          <h4 onClick={() => quickPick("calm")}>
             <span class="badge badge-pill badge-light float-left">
               calm
             </span>
