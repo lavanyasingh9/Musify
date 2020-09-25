@@ -1,4 +1,4 @@
-.bg {
+/* .bg {
   background-image: url("../Images/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,14 +8,21 @@
 }
 .navbar {
   background: linear-gradient(to right, rgb(202, 46, 18), black);
-}
+} */
 
 /* Small phones: from 0 to 400px */
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   section {
     padding: 50px 0;
   }
   .contact-from {
     width: 100%;
   }
+} */
+.nav-brand{
+  font-family: fantasy;
+}
+.navbar .navbar-nav .nav-link {
+  font-family: fantasy !important;
+  font-size: 4em;
 }

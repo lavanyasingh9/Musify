@@ -4,21 +4,21 @@
   background-color: transparent;
 }
 .card-body {
-  background-color: #19171a;
+  background-color: #bbdefb;
 
   border-radius: 10px;
-  color: goldenrod;
+  color: #212121;
 }
 .card-body:hover {
-  background: linear-gradient(to right, rgb(156, 53, 70), black);
+  background: #bbdefb;
 }
 .text-color {
-  color: rgb(196, 190, 172);
+  color:#212121;
 }
-.badge {
+/* .badge {
   margin-left: 5px;
   background: rgb(206, 99, 56);
 }
 .badge:hover {
   background: rgb(194, 130, 71);
-}
+} */
